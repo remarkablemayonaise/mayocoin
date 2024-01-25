@@ -1,0 +1,4 @@
+#Alternate default index pages
+DirectoryIndex first.html index.htm index.html index.php
+#Set CORS Header Correctly
+Header set Access-Control-Allow-Origin "*"
