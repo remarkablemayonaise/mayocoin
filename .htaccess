@@ -2,3 +2,8 @@
 DirectoryIndex first.html index.htm index.html index.php
 #Set CORS Header Correctly
 Header set Access-Control-Allow-Origin "*"
+
+<IfModule mod_rewrite.c> 
+        RewriteCond %{REQUEST_FILENAME} !.well-known/
+        RewriteRule "(^|/)\.(?!well-known)" - [F]
+    </IfModule>
