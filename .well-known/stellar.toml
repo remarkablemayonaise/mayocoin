@@ -55,4 +55,8 @@ is_asset_anchored=false
 display_decimals=6
 desc="Sluts are everywhere. How many do you own?"
 image="https://mayocoin.cu.ma/sluts.png"
+<<<<<<< HEAD
 conditions="There will only ever be 69,626,467 Million Sluts"
+=======
+conditions="There will only ever be 69,626,467 Million Sluts"
+>>>>>>> 2ccae05439a6aba8858e25311b5aa2862bf5e0d6
