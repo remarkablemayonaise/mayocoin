@@ -1,4 +1,0 @@
-<Files "stellar.toml">
-Header set Access-Control-Allow-Origin "*"
-Header set content-type: text/plain 
-</Files> 
